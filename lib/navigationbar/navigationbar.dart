@@ -20,6 +20,7 @@ class _MainPageState extends State<MainPage> {
       const Center(child: Text('coming soon')),
       const Center(child: Text('coming soon')),
     ];
+
   }
   List<PersistentBottomNavBarItem> _navBarsItems() {
     return [
