@@ -16,8 +16,7 @@ class _MainPageState extends State<MainPage> {
   }
 
   List<Widget> _buildScreens() {
-    return [
-      const Homepage(),
+    return [      const Homepage(),
       const Center(child: Text('coming soon')),
       const Center(child: Text('coming soon')),
       const Center(child: Text('coming soon')),
