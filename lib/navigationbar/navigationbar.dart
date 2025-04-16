@@ -24,6 +24,8 @@ class _MainPageState extends State<MainPage> {
     ];
   }
 
+
+
   List<PersistentBottomNavBarItem> _navBarsItems() {
     return [
       PersistentBottomNavBarItem(
