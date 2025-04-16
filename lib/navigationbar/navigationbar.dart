@@ -14,7 +14,6 @@ class _MainPageState extends State<MainPage> {
     super.initState();
     _controller = PersistentTabController(initialIndex: 0);
   }
-
   List<Widget> _buildScreens() {
     return [      const Homepage(),
       const Center(child: Text('coming soon')),
