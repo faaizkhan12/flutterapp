@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
-import 'package:task/navigationbar/Homepage.dart';
+import 'package:task/navigationbar/Home_Page/Homepage.dart';
 class MainPage extends StatefulWidget {
   @override
   _MainPageState createState() => _MainPageState();
@@ -15,7 +15,8 @@ class _MainPageState extends State<MainPage> {
     _controller = PersistentTabController(initialIndex: 0);
   }
   List<Widget> _buildScreens() {
-    return [      const Homepage(),
+    return [
+      const Homepage(),
       const Center(child: Text('coming soon')),
       const Center(child: Text('coming soon')),
       const Center(child: Text('coming soon')),
